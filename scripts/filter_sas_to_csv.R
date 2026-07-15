@@ -6,7 +6,7 @@
 # 出力: <output_base>.csv（中間ファイル）
 #
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-print("/*** !!! a message for IT004 -01 !!! ")
+print("/*** !!! a message for IT004-10 update1 !!! ")
 ### Using Logger: Initialize ###
 if (!exists(".app_logger_initialized", inherits=TRUE)) {
   try(.local_init_app_logger(), silent=TRUE)
@@ -37,7 +37,7 @@ in_path  <- args[1]; col <- args[2]; val <- args[3]; out_base <- args[4]; actual
 #out_base <- "/studies/STD0001/s1reporting1_beatrice/02_output/fever.csv"
 #actual_executor <- "Kitagawa, Atsushi:B06823"
 
-print("/*** !!! a message for IT004 -02 !!! ")
+print("/*** !!! a message for IT004-10 update2 !!! ")
 ### Using Logger: Arguments information ###
 log_info("Arguments detail", action="in_process", input=in_path, column=col, searchValue=val, output=out_base, run_user=actual_executor)
 ###########################################
