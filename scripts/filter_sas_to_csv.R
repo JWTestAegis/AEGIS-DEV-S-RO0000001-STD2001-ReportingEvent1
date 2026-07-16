@@ -11,7 +11,7 @@
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-print("/*** !!! a message for IT004-10 update1 !!! ")
+print("/*** !!! a message for IT005 test start !!! ")
 ### Using Logger: Initialize ###
 #if (!exists(".app_logger_initialized", inherits=TRUE)) {
 #  try(.local_init_app_logger(), silent=TRUE)
@@ -142,4 +142,5 @@ message(paste0("[AEGIS Logging]Output completed. output: ", out_csv, ", Hash: ",
 #log_info("Script ends", action="script_end", user_id=uid, session_id=sid)
 #log_info("Script ends", action="end")
 message("[AEGIS Logging]Script ends")
+print("/*** !!! a message for IT005 test end !!! ")
 #########################
